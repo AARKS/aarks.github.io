@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #CCCCCC;
+}
+
+.header_bg {
+	background: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.bg {	
+	background: #fff;
+}
+
+.focus_icon img {
+	height: 60px;
+
+}
+
+.header .text {
+	text-align: center;	
+}
+
+.header .text .header_title {
+	font-size: 25px;
+	padding: 0 0 5px 0;
+	color: green;
+	margin: 0;
+}
+.header .text .header_info {
+	padding: 0;
+	margin: 0;
+}
+
+.header .signout a{
+	margin-top: 20px;
+	
+}
+
+.navbar {
+	
+	padding-top: 0;
+	padding-bottom: 0;
+	margin: 0;
+}
+
+.navbar li {
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.navbar .nav-item {
+     -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.navbar ul li:hover {
+	background: #01FF00;	
+	border-radius: 3px;
+}
+
+.dropdown-menu a {
+	padding: 2px 5px 2px 5px;
+}
+
+/*.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+*/
+
+.content {
+	background: #fff;
+	height: 1000px;
+
+}
+
+
+/**
+ * ---------------------------------------------------
+ * Scroll to Top
+ * ---------------------------------------------------
+ */
+.scrollup {
+	position: fixed;
+	z-index: 99999;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+}
+
+.scrollup i {
+	background: #0097E6;
+	color: #ffffff;
+	text-align: center;
+	font-size: 28px;
+	padding: 8px 15px;
+	opacity: 0.8;
+	filter: alpha(opacity=50);
+}
+
+.scrollup i:hover {
+	opacity: 1;
+	filter: alpha(opacity=1);
+}
+
+.footer_bg {
+	background: #5F5F5F;
+}
+
+.footer p {
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+	color: #fff;
+}
